@@ -3,7 +3,7 @@ package demo_package;
 public class class_five {
 	
 	int a =10;
-	int b=8;
+	int b=81;
 	
 	public static void add()
 	{

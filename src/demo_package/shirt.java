@@ -6,43 +6,43 @@ public class shirt {
     String c2 = "This is dark is";
     public String c1 ="PINK";
     String c3="Elephant";
-
+static int mark =6765;
 	public static void main(String[] args) {
-		shirt s = new shirt();
-		System.out.println(s.colour.charAt(2));
-		System.out.println(s.colour.compareTo(s.c1));
-		System.out.println(s.colour.compareToIgnoreCase(s.c1));
-		System.out.println(s.c2+" "+s.colour);
-		System.out.println(s.c2.concat(s.c1));
-		System.out.println(s.colour.contentEquals("pink"));
-		System.out.println(s.colour.equalsIgnoreCase(s.c1));
-		System.out.println(s.colour.equals(s.c2));
-		System.out.println(s.colour.contains("in"));
+	
+		int[] b =new int[5];
+		int[][] f=new int[3][2];
+		char[] n=new char[6];
+		String[] h=new String[45];
 		
-		System.out.println(s.colour.endsWith("ink"));
+		b[0] =45;
+		b[1] =67;
+		b[2] = 23;
+		b[3] = 26;
+		b[4] = 39;
+	
 		
-	System.out.println(s.colour.indexOf('n'));
-	System.out.println(s.c2.indexOf("is"));	
-	System.out.println(s.c1.isEmpty());
-	System.out.println(s.c2.lastIndexOf("is"));
-	System.out.println(s.c2.length());
-	System.out.println(s.c2.replace('i', 'z'));
-	String[] s2 = s.c2.split(" ");
-	for(int i=0;i<s2.length;i++)
-		System.out.println(s2[i]);
-	
-	System.out.println(s.colour.startsWith("pin"));
-	System.out.println(s.c3.substring(2));
-	System.out.println(s.c3.substring(2, 4));
-	
-	System.out.println(s.c3.toUpperCase());
-	System.out.println(s.c2.toLowerCase());
-	
-	
-		char[] ch = s.colour.toCharArray();
-		for(int i=0;i<ch.length;i++)
-			System.out.println(ch[i]);
+		for(int i=0;i<b.length;i++)
+			System.out.println(b[i]);
 		
-	}
+		f[0][0] =11;
+		f[0][1]=22;
+		f[1][0]=33;
+		f[1][1] =44;
+		f[2][0] =55;
+		f[2][1] =66;
+		
+		for(int j=0;j<3;j++)
+		{
+			for(int i=0;i<2;i++)
+				System.out.print(f[j][i]+" ");
+			
+			//System.out.println("\n");
+			
+		}
+		
+		
+		}
+	
+	
 
 }
